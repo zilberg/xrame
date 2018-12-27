@@ -1,4 +1,4 @@
-Запуск через maven: mvn clean test -Dtest=RunTest
+Запуск через maven: mvn -s settings.xml clean test -Dtest=RunTest
 Настройки по запуску драйвера:  src/main/resources/config.properties
 Выбор запускаемого драйвера в параметре: browser=chrome
 Пришлось так разбить из браузера Yandex, т.к. для него нет собственного браузера.
